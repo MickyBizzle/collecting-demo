@@ -1,5 +1,8 @@
-import '../styles/globals.css';
 import * as NextImage from 'next/image';
+import { ThemeProvider } from '@emotion/react';
+import { addDecorator } from '@storybook/react';
+import { withThemes } from '@react-theming/storybook-addon';
+import { theme } from '../theme/theme';
 
 const BREAKPOINTS_INT = {
   xs: 375,
@@ -42,4 +45,7 @@ export const parameters = {
     },
   },
   viewport: { viewports: customViewports },
+  layout: 'fullscreen',
 };
+
+addDecorator(withThemes(ThemeProvider, [theme]));
