@@ -1,13 +1,22 @@
+import { NavButtons } from './stories/NavButtons';
 import { NavbarType } from './Navbar.type';
 
-const base: NavbarType = {
+const justLogo: NavbarType = {
   logo: {
     url: 'https://collectingcars.com/assets/img/cc-logo-r.svg',
     alt: 'Collecting Cars logo',
   },
-  links: [],
+};
+
+const withButtons: NavbarType = {
+  logo: {
+    url: 'https://collectingcars.com/assets/img/cc-logo-r.svg',
+    alt: 'Collecting Cars logo',
+  },
+  children: NavButtons(),
 };
 
 export const mockNavbarProps = {
-  base,
+  justLogo,
+  withButtons,
 };

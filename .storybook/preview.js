@@ -2,6 +2,7 @@ import * as NextImage from 'next/image';
 import { ThemeProvider } from '@emotion/react';
 import { addDecorator } from '@storybook/react';
 import { withThemes } from '@react-theming/storybook-addon';
+import 'lato-font';
 import { theme } from '../theme/theme';
 
 const BREAKPOINTS_INT = {

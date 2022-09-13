@@ -3,11 +3,5 @@ export type NavbarType = {
     url: string;
     alt: string;
   };
-  links: NavLinkType;
+  children?: React.ReactNode;
 };
-
-type NavLinkType = {
-  url: string;
-  label: string;
-  children?: NavLinkType;
-}[];
