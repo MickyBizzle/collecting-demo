@@ -2,6 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  images: {
+    domains: ['images.collectingcars.com'],
+  },
   // async rewrites() {
   //   return {
   //     fallback: [

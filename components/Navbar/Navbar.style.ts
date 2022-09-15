@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-export const StyledNavbar = styled.div`
+export const StyledNavbar = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,6 +9,7 @@ export const StyledNavbar = styled.div`
   background-color: ${({ theme }) => theme.colors.blue};
   padding: 0 50px;
   box-sizing: border-box;
+  border-bottom: 4px solid ${({ theme }) => theme.colors.red};
 `;
 
 export const LeftCol = styled.div`
