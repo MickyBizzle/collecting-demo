@@ -1,0 +1,45 @@
+
+//Newsletter popup (defined in HD1)
+$content-popup-z-index: 9999;
+
+//Had to enter manually due to v3.
+$header-z-index: 8999;
+
+//Cookie popup
+$cookies-z-index: 7999;
+
+//Place your bid (Defined in HD1)
+$place-bid-popup-z-index: 6999;
+
+//Confirm your bid
+$confirm-bid-popup-z-index: 6999 + 1;
+
+//Gallery lightbox
+$gallery-z-index: 6200;
+
+//Gallery lightbox background colour
+$gallery-backdrop-z-index: 6100;
+
+//Bid popup (Defined in HD1)
+$bid-popup-z-index: 5999;
+
+//Bid popup notifications (accept ts-cs, add card etc
+$bid-notification-z-index: 5999;
+
+//Modal system popups - Here for reference only, written explicitly in hd-base-web
+//$modals-z-index: 2999 + 1;
+
+//Dark lightbox content overlay
+$dark-lightbox-z-index: 2999;
+
+//Homepage search panel
+$searchPanel-z-index: 100;
+
+//PLP Auction panel (bids, time remaining, place bid etc)
+$auction-status-panel-z-index: 100;
+
+//Tippy tooltips content
+$tooltip-z-index: 99;
+
+//Unsure - carry over from v3
+$zi-filters: 900;

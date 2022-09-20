@@ -1,0 +1,41 @@
+@import './imports/_variables.scss';
+@import './imports/_media-queries';
+@import './imports/_z-index.scss';
+
+/*Root HTML elements*/
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: lato;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+
+}
+
+section {
+
+}
+
+article {
+
+}
+
+.container {
+  max-width: 1400px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+
+//---XSLT Break Return hack (old I think)---//
+br {
+  + br {
+    display: none;
+  }
+}

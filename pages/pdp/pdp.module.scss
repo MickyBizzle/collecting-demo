@@ -1,0 +1,13 @@
+.grid {
+  grid-template-columns: repeat(4, 1fr);
+
+  &__cell {
+    color: white;
+    background: grey;
+
+    &:nth-child(even) {
+      background: coral;
+    }
+  }
+
+}
